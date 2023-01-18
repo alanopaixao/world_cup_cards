@@ -5,4 +5,3 @@ sdf
 s
  dfs
   f
-  s
