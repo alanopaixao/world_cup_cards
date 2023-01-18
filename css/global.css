@@ -31,8 +31,13 @@ body {
 }
 
 .flag img {
-  width: 100%;
+  width: 310px;
+  height: 180px;
   border-radius: 5px;
+}
+
+.flag {
+  padding-bottom: 10px;
 }
 
 .card {
@@ -44,8 +49,7 @@ body {
   padding: 20px;
 }
 
-.card-content,
-.flag {
+.card-content {
   padding-bottom: 20px;
 }
 

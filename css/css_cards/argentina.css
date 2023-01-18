@@ -1,10 +1,17 @@
 #argentina .button {
   background-color: aqua;
-  color: rgb(2, 40, 43);
+  color: rgb(2, 2, 49);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
+  border: none;
 }
 #argentina .card-credits {
   font-weight: 700;
-  color: rgb(2, 40, 43);
+  color: rgb(2, 2, 49);
+}
+#argentina .card-title {
+  color: rgb(2, 2, 49);
+}
+#argentina .card-content p {
+  color: rgb(2, 2, 49);
 }
