@@ -1,1 +1,6 @@
-
+#argentina .button {
+  background-color: aqua;
+  color: rgb(2, 40, 43);
+  font-weight: 700;
+  border: none;
+}
