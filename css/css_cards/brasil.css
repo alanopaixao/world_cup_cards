@@ -1,0 +1,12 @@
+#brasil .button {
+  background-color: green;
+  color: yellow;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+#brasil .card-credits {
+  font-weight: 700;
+  color: green;
+}
