@@ -53,6 +53,10 @@ body {
   padding-bottom: 20px;
 }
 
+.card-content p {
+  font-size: 0.9rem;
+}
+
 .card-title {
   padding-bottom: 10px;
 }
@@ -61,7 +65,7 @@ body {
   text-align: end;
   font-size: 0.8rem;
   color: #333;
-  padding: 10px 0 0 0;
+  padding-bottom: 20px;
 }
 
 .button {
