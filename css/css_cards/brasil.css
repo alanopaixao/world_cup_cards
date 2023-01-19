@@ -6,6 +6,10 @@
   border: none;
 }
 
+#brasil .card-content h1 {
+  border-bottom: 2px solid green;
+}
+
 #brasil .card-credits {
   font-weight: 700;
   color: green;
