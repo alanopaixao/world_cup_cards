@@ -14,3 +14,19 @@
   font-weight: 700;
   color: green;
 }
+
+#brasil .card-credits {
+  padding-bottom: 0;
+}
+
+#brasil .card-credits-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+#brasil .card-credits-content img {
+  height: 20px;
+  padding-left: 10px;
+}
