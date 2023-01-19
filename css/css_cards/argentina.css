@@ -22,3 +22,18 @@
   border: 1px solid aqua;
   font-weight: 700;
 }
+
+#argentina .card-credits {
+  padding-bottom: 0;
+}
+#argentina .card-credits-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+#argentina .card-credits-content img {
+  height: 20px;
+  padding-left: 10px;
+}
