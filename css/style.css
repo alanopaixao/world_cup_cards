@@ -2,7 +2,10 @@
 
 @import "./global.css";
 
+/* Componentes */
+@import "./componentes/componentes.css";
+
 /* CSS_CARDS */
 @import "./css_cards/brasil.css";
 @import "./css_cards/argentina.css";
-@import "./css_cards/canada.css"
+@import "./css_cards/canada.css";
