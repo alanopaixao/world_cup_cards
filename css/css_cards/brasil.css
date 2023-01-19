@@ -1,9 +1,22 @@
+#brasil {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+}
+
 #brasil .button {
   background-color: green;
   color: yellow;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
+  transition: 0.3s all;
+}
+
+#brasil .button:hover {
+  background-color: green;
+  color: white;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
 }
 
 #brasil .card-content h1 {
