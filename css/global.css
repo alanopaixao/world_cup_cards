@@ -11,7 +11,7 @@
 
 body {
   height: 100vh;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/mainBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -25,13 +25,14 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
   gap: 20px;
   justify-content: center;
 }
 
 .flag img {
-  width: 310px;
+  object-fit: cover;
+  width: 100%;
   height: 180px;
   border-radius: 5px;
 }
