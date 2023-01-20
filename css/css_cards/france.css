@@ -1,0 +1,45 @@
+#france {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+}
+
+#france .button {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  transition: 0.3s all;
+}
+
+#france .button:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+#france .card-content h1 {
+  border-bottom: 2px solid;
+}
+
+#france .card-credits {
+  font-weight: 700;
+  color: rgb(14, 17, 207);
+}
+
+#france .card-credits {
+  padding-bottom: 0;
+}
+
+#france .card-credits-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+#france .card-credits-content img {
+  height: 20px;
+  padding-left: 10px;
+}
