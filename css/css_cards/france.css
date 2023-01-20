@@ -13,6 +13,12 @@
   transition: 0.3s all;
 }
 
+#france .flag {
+  background-image: url("../../img/flags/flagFra.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 #france .button:hover {
   background-color: red;
   color: white;
