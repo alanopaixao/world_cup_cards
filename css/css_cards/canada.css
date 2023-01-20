@@ -1,20 +1,26 @@
 #canada .button {
-    background-color: rgb(250, 91, 91);
-    color: rgb(248, 248, 248);
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-}
-  
-#canada .card-credits {
-    font-weight: 700;
-    color: rgb(253, 82, 96);
+  background-color: rgb(250, 91, 91);
+  color: rgb(248, 248, 248);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
 }
 
-#canada .button:hover{
-    background-color:rgb(248, 248, 248);
-    color:  rgb(250, 91, 91);
-    border: 1px solid red;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+#canada .flag {
+  background-image: url("../../img/CanadaFlag.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#canada .card-credits {
+  font-weight: 700;
+  color: rgb(253, 82, 96);
+}
+
+#canada .button:hover {
+  background-color: rgb(248, 248, 248);
+  color: rgb(250, 91, 91);
+  border: 1px solid red;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -12,6 +12,11 @@
   border: none;
   transition: 0.3s all;
 }
+#brasil .flag {
+  background-image: url("../../img/bandeira-brasil.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 #brasil .button:hover {
   background-color: green;

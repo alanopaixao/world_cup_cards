@@ -17,6 +17,13 @@
   border: none;
   transition: 0.1s all;
 }
+
+#argentina .flag {
+  background-image: url("../../img/bandeira-da-argentina.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 #argentina .card-credits {
   font-weight: 700;
   color: rgb(2, 2, 49);
