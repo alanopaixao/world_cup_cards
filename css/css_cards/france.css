@@ -1,50 +1,51 @@
-#brasil {
+#france {
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
 }
 
-#brasil .button {
-  background-color: green;
-  color: yellow;
+#france .button {
+  background-color: blue;
+  color: white;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
   transition: 0.3s all;
 }
-#brasil .flag {
-  background-image: url("../../img/flags/flagBra.png");
+
+#france .flag {
+  background-image: url("../../img/flags/flagFra.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#brasil .button:hover {
-  background-color: green;
+#france .button:hover {
+  background-color: red;
   color: white;
   box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
 }
 
-#brasil .card-content h1 {
-  border-bottom: 2px solid green;
+#france .card-content h1 {
+  border-bottom: 2px solid;
 }
 
-#brasil .card-credits {
+#france .card-credits {
   font-weight: 700;
-  color: green;
+  color: rgb(14, 17, 207);
 }
 
-#brasil .card-credits {
+#france .card-credits {
   padding-bottom: 0;
 }
 
-#brasil .card-credits-content {
+#france .card-credits-content {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 20px;
 }
 
-#brasil .card-credits-content img {
+#france .card-credits-content img {
   height: 20px;
   padding-left: 10px;
 }
