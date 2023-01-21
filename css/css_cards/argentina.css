@@ -35,8 +35,17 @@
 #argentina .card-title {
   color: rgb(2, 2, 49);
 }
+#argentina .card-title-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#argentina .emoji-star {
+  font-size: 15px;
+}
 #argentina .card-content p {
   color: rgb(2, 2, 49);
+  text-align: justify;
 }
 #argentina .button:hover {
   background-color: rgb(2, 2, 49);
