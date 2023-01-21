@@ -27,7 +27,9 @@
   background-position: center;
   background-size: cover;
 }
-
+#argentina .card-title-content {
+  border-bottom: 2px solid rgb(2, 2, 49);
+}
 #argentina .card-credits {
   font-weight: 700;
   color: rgb(2, 2, 49);
