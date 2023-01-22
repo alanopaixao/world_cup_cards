@@ -80,3 +80,17 @@ body {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  .card-credits {
+    font-size: 0.7rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
