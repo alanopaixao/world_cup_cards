@@ -1,9 +1,14 @@
 #espanha {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient( #ffc4003b 50%, #c60b1e25);
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
-  }
-  
+    border: solid 1px #c60b1e6c;
+
+}  
+
+#espanha .emoji-star {
+  font-size: 20px;
+}
   #espanha .button {
     background-color: rgb(221, 11, 11);
     color: yellow;
@@ -19,8 +24,8 @@
   }
   
   #espanha .button:hover {
-    background-color: rgb(231, 212, 36);
-    color: white;
+    background-color: yellow;
+    color: rgb(221, 11, 11);
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
   }
   
@@ -48,4 +53,4 @@
     height: 20px;
     padding-left: 10px;
   }
-  
+
