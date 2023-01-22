@@ -29,3 +29,15 @@
 .header-menu a {
   color: rgb(2, 21, 60);
 }
+
+.footer-bg {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  height: max-content;
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.footer-copyright {
+  padding: 20px 0 10px 0;
+}
