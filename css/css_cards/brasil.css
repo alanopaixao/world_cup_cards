@@ -17,6 +17,11 @@
   background-image: url("../../img/flags/flagBra.png");
   background-position: center;
   background-size: cover;
+  transition: all 0.05s;
+}
+
+#brasil .flag:hover {
+  background-image: url(../../img/selecao/selecaoBra.jpg);
 }
 
 #brasil .card-title-content {

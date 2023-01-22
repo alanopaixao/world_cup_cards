@@ -1,62 +1,55 @@
 #inglaterra {
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
-  }
-  
-  #inglaterra .button {
-    background-color: red;
-    color: white;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    transition: 0.3s all;
-  }
-  #inglaterra .flag {
-    background-image: url("../../img/flags/flagIng.png");
-    background-position: center;
-    background-size: cover;
-    transition:all 0.3s ease;
-  }
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+}
 
-  #inglaterra .flag:hover {
-    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/11/GettyImages-1427961470.jpg?w=876&h=484&crop=1);
-    transition:all 0.3s ease;
-  }
+#inglaterra .button {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  transition: 0.3s all;
+}
+#inglaterra .flag {
+  background-image: url("../../img/flags/flagIng.png");
+  background-position: center;
+  background-size: cover;
+  transition: all 0.1s ease;
+}
 
-  
-  #inglaterra .button:hover {
-    background-color: white;
-    color: red;
-    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
-  }
-  
-  #inglaterra .card-content h1 {
-    border-bottom: 2px solid red;
-  }
-  
-  #inglaterra .card-credits {
-    font-weight: 700;
-    color: red;
-  }
-  
-  #inglaterra .card-credits {
-    padding-bottom: 0;
-  }
-  
-  #inglaterra .card-credits-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 20px;
-  }
-  
-  #inglaterra .card-credits-content img {
-    height: 20px;
-    padding-left: 10px;
-  }
+#inglaterra .flag:hover {
+  background-image: url("../../img/selecao/selecaoEng.webp");
+}
 
-  
+#inglaterra .button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
 
-  
-  
+#inglaterra .card-content h1 {
+  border-bottom: 2px solid red;
+}
+
+#inglaterra .card-credits {
+  font-weight: 700;
+  color: red;
+}
+
+#inglaterra .card-credits {
+  padding-bottom: 0;
+}
+
+#inglaterra .card-credits-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+#inglaterra .card-credits-content img {
+  height: 20px;
+  padding-left: 10px;
+}
