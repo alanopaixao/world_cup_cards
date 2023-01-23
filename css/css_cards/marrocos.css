@@ -157,3 +157,7 @@ button:hover .circle .icon.arrow {
 button:hover .button-text a {
   color: #e61127;
 }
+
+#marroco .card-title {
+  border-bottom: 2px solid red;
+}

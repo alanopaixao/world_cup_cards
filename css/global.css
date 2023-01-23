@@ -80,7 +80,14 @@ body {
 a {
   text-decoration: none;
 }
-
+.card-title-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.emoji-star {
+  font-size: 15px;
+}
 @media screen and (max-width: 800px) {
   p {
     font-size: 0.8rem;
@@ -94,3 +101,4 @@ a {
     text-decoration: none;
   }
 }
+
