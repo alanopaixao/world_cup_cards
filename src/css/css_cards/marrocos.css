@@ -14,6 +14,10 @@
   background-size: cover;
 }
 
+#marroco .flag:hover{
+  background-image: url("/img/selecao/selecaoMarr.jpeg");
+}
+
 #marroco .card-content,
 .card-content2 {
   z-index: 1;
@@ -156,4 +160,8 @@ button:hover .circle .icon.arrow {
 
 button:hover .button-text a {
   color: #e61127;
+}
+
+#marroco .card-title {
+  border-bottom: 2px solid red;
 }

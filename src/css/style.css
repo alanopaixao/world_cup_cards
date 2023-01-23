@@ -3,7 +3,8 @@
 @import "./global.css";
 
 /* Componentes */
-@import "./componentes/componentes.css";
+@import "./componentes/headerIndex.css";
+@import "./componentes/footer.css";
 
 /* CSS_CARDS */
 @import "./css_cards/argentina.css";
@@ -12,8 +13,10 @@
 @import "./css_cards/france.css";
 @import "./css_cards/marrocos.css";
 @import "./css_cards/espanha.css";
-@import "css_cards/inglaterra.css";
+@import "./css_cards/inglaterra.css";
+@import "./css_cards/belgica.css";
+@import "./css_cards/japao.css";
+
 
 /* HOME_STYLES */
 @import "./home_styles/home_brasil.css";
-

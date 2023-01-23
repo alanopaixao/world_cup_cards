@@ -24,3 +24,7 @@
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#canada .card-title {
+  border-bottom: 2px solid red;
+}

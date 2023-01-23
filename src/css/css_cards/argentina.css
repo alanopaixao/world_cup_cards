@@ -1,6 +1,10 @@
 #argentina {
   position: relative;
   transition: 0.2s all;
+  background-image: linear-gradient(rgb(193, 215, 215) 50%, rgb(185, 185, 217));
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+  border: solid 1px rgb(193, 215, 215);
 }
 #argentina:hover {
   box-shadow: inset 0 0px 0px 3px rgb(255, 222, 35);
