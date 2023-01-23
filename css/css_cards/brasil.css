@@ -3,6 +3,12 @@
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
   border: solid 1px rgba(255, 255, 255, 0.8);
+  transition: 0.5s all;
+}
+
+#brasil:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 10px -8px rgb(0 0 0 / 30%);
 }
 
 #brasil .button {
