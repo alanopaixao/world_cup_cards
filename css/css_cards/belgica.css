@@ -1,0 +1,53 @@
+#belgica {
+    background-image: linear-gradient( #ffc4003b 50%, #c60b1e25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+    border: solid 1px #c60b1e6c;
+
+}  
+
+#belgica .button {
+    background-color: yellow;
+    color:rgb(221, 11, 11) ;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.3s all;
+}
+#belgica .flag {
+    background-image: url("../../img/flags/flagBelg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#belgica .button:hover {
+    background-color: rgb(221, 11, 11);
+    color:  yellow;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+  #belgica .card-content h1 {
+    border-bottom: 2px solid rgb(226, 6, 6);
+  }
+  
+  #belgica .card-credits {
+    font-weight: 700;
+    color: rgb(224, 12, 4);
+  }
+  
+  #belgica .card-credits {
+    padding-bottom: 0;
+  }
+  
+  #belgica .card-credits-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+  
+  #belgica .card-credits-content img {
+    height: 20px;
+    padding-left: 10px;
+  }
+
