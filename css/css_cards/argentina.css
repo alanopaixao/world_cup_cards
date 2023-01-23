@@ -27,6 +27,11 @@
   background-position: center;
   background-size: cover;
 }
+
+#argentina .flag:hover {
+  background-image: url("/img/selecao/selecaoArg.jpeg");
+}
+
 #argentina .card-title-content {
   border-bottom: 2px solid rgb(2, 2, 49);
 }
