@@ -33,7 +33,7 @@
 }
 
 #argentina .flag:hover {
-  background-image: url("/img/selecao/selecaoArg.jpeg");
+  background-image: url("../../img/selecao/selecaoArg.jpeg");
 }
 
 #argentina .card-title-content {
