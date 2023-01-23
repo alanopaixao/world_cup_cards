@@ -7,8 +7,9 @@
 }  
 
 #espanha .emoji-star {
-  font-size: 20px;
+  font-size: 15px;
 }
+
   #espanha .button {
     background-color: rgb(221, 11, 11);
     color: yellow;
@@ -29,7 +30,7 @@
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
   }
   
-  #espanha .card-content h1 {
+  #espanha .card-title-content  {
     border-bottom: 2px solid rgb(226, 6, 6);
   }
   

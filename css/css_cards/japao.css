@@ -30,3 +30,7 @@
     padding-left: 10px;
   }
   
+#japao .card-title {
+    border-bottom: 2px solid red;
+  }
+      
