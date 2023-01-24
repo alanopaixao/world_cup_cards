@@ -1,17 +1,3 @@
-@media screen and (max-width: 800px) {
-  p {
-    font-size: 0.8rem;
-  }
-
-  .card-credits {
-    font-size: 0.7rem;
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +6,11 @@
   scroll-behavior: smooth;
 }
 
-.content {
+.container {
   max-width: 1440px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 body {
@@ -110,4 +98,18 @@ a {
 .emoji-star {
   width: 1.7em;
   height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  .card-credits {
+    font-size: 0.7rem;
+  }
 }

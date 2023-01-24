@@ -1,331 +1,456 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
+    <title>Full Stack 11 | Cards da Copa</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/faviconDc.png" />
 
-  <!-- Page Title -->
-  <title>Full Stack 11 | Cards da Copa</title>
-  <link rel="icon" type="image/x-icon" href="./src/img/faviconDc.png" />
+    <!-- Links -->
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
 
-  <!-- Links -->
-  <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
+    <!--  Javascript Links -->
+    <script src="./src/js/script.js" defer></script>
+  </head>
 
-  <!--  Javascript Links -->
-  <script src="./src/js/script.js" defer></script>
-</head>
+  <body>
+    <header class="header-bg">
+      <!-- Main Navbar  -->
+      <marquee
+        behavior="scroll"
+        direction="left"
+        onmouseover="this.stop();"
+        onmouseout="this.start();"
+        scrooldelay="0"
+        width="800"
+      >
+        <nav class="header-menu">
+          <ol class="header-menu-itens">
+            <li><a href="#argentina">Argentina</a></li>
+            <li><a href="#belgica">Bélgica</a></li>
+            <li><a href="#brasil">Brasil</a></li>
+            <li><a href="#canada">Canadá</a></li>
+            <li><a href="#espanha">Espanha</a></li>
+            <li><a href="#france">França</a></li>
+            <li><a href="#marroco">Marrocos</a></li>
+            <li><a href="#inglaterra">Inglaterra</a></li>
+            <li><a href="#japao">Japão</a></li>
+          </ol>
+        </nav>
+      </marquee>
+    </header>
 
-<body>
-  <header class="header-bg">
-    <!-- Main Navbar  -->
-    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrooldelay="0" width="800">
-      <nav class="header-menu">
-        <ol class="header-menu-itens">
-          <li><a href="#argentina">Argentina</a></li>
-          <li><a href="#belgica">Bélgica</a></li>
-          <li><a href="#brasil">Brasil</a></li>
-          <li><a href="#canada">Canadá</a></li>
-          <li><a href="#espanha">Espanha</a></li>
-          <li><a href="#france">França</a></li>
-          <li><a href="#marroco">Marrocos</a></li>
-          <li><a href="#inglaterra">Inglaterra</a></li>
-          <li><a href="#japao">Japão</a></li>
-        </ol>
-      </nav>
-    </marquee>
-  </header>
+    <main class="main-bg">
+      <div class="main container">
+        <!-- INICIO DO CARD  -->
+        <div class="card" id="argentina">
+          <img class="card-trofeu" src="./src/img/svg/trofeu-copa.svg" />
+          <div class="card-content">
+            <div class="flag"></div>
+            <div class="card-title-content">
+              <h1 class="card-title">Argentina</h1>
 
-  <main class="main-bg">
-    <div class="main content">
-      <!-- INICIO DO CARD  -->
-      <div class="card" id="argentina">
-        <img class="card-trofeu" src="./src/img/svg/trofeu-copa.svg" />
-        <div class="card-content">
-          <div class="flag"></div>
-          <div class="card-title-content">
-            <h1 class="card-title">Argentina</h1>
-
-            <span class="champion-star">
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-            </span>
+              <span class="champion-star">
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+              </span>
+            </div>
+            <p>
+              A Argentina estava no Grupo C da Copa do Mundo ao lado de Arábia
+              Saudita, México e Polônia. A seleção estreou com derrota para o
+              país árabe, mas se recuperou e conquistou seu terceiro título.
+            </p>
           </div>
-          <p>
-            A Argentina estava no Grupo C da Copa do Mundo ao lado de Arábia
-            Saudita, México e Polônia. A seleção estreou com derrota para o
-            país árabe, mas se recuperou e conquistou seu terceiro título.
-          </p>
-        </div>
-        <div class="card-icone">
-          <a href="https://github.com/luannpl" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Paulo Luan</p>
-              <img src="./src/img/svg/ghluan.svg" alt="" />
-            </div>
-          </a>
-          <a href="https://pt.wikipedia.org/wiki/Argentina_na_Copa_do_Mundo_FIFA_de_2022" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
-
-      <!-- INICIO DO CARD -->
-      <div class="card" id="belgica">
-        <div class="card-content">
-          <div class="flag"></div>
-          <h1 class="card-title">Bélgica</h1>
-          <p>
-            A Seleção belga, que vinha fazendo bonito nas copas anteiores não
-            teve muita sorte na Copa do Mundo 2022 realizada no Catar. Muitos
-            problemas extra-campo atrapalharam a geração de ouro da Bélgica
-            que não mostrou bom desempenho no campeonato e terminou em
-            terceito no seu grupo e não se classificou para a fase do
-            mata-mata.
-          </p>
-        </div>
-        <div>
-          <a href="https://github.com/romariobc" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Romário Costa</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
-            </div>
-          </a>
-          <a href="https://ge.globo.com/futebol/selecoes/belgica/" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
-
-      <!-- INICIO DO CARD  -->
-      <div class="card" id="brasil">
-        <div class="card-content">
-          <div class="flag"></div>
-          <div class="card-title-content">
-            <h1 class="card-title">Brasil</h1>
-            <span class="champion-star">
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-            </span>
+          <div class="card-icone">
+            <a href="https://github.com/luannpl" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Paulo Luan</p>
+                <img src="./src/img/svg/ghluan.svg" alt="" />
+              </div>
+            </a>
+            <a
+              href="https://pt.wikipedia.org/wiki/Argentina_na_Copa_do_Mundo_FIFA_de_2022"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
           </div>
-          <p>
-            O Brasil na Copa do Mundo FIFA de 2022 manteve a situação de único
-            país a participar de todas as edições do torneio da FIFA.
-          </p>
         </div>
-        <div>
-          <a href="https://github.com/alanopaixao" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Alan Paixão</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
-            </div>
-          </a>
-          <a href="./home/brasil.html" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
+        <!-- FIM DO CARD -->
 
-      <!-- INICIO DO CARD -->
-      <div class="card" id="canada">
-        <div class="card-content">
-          <div class="flag"></div>
-          <h1 class="card-title">Canadá</h1>
-          <p>
-            A Seleção Canadense chega para a Copa do Mundo 2022 após 36 anos,
-            desde 1986 que não participava. O país faz parte da América do
-            Norte, ao lado de Estados Unidos e México. Portanto, faz parte da
-            CONCACAF, que engloba não só a região Norte das Américas, como
-            também a Central, as Guianas independentes da América do Sul e o
-            Suriname.
-          </p>
-        </div>
-        <div>
-          <p class="card-credits">Feito por: Sérgio Felipe</p>
-          <a href="https://www.quintoquartobr.com/copa-do-mundo/copa-do-mundo-tudo-sobre-a-selecao-canadense/" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
-
-      <!-- INICIO DO CARD  -->
-      <div class="card" id="espanha">
-        <div class="card-content">
-          <div class="flag"></div>
-          <div class="card-title-content">
-            <h1 class="card-title">Espanha</h1>
-            <span class="champion-star">
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-            </span>
+        <!-- INICIO DO CARD -->
+        <div class="card" id="belgica">
+          <div class="card-content">
+            <div class="flag"></div>
+            <h1 class="card-title">Bélgica</h1>
+            <p>
+              A Seleção belga, que vinha fazendo bonito nas copas anteiores não
+              teve muita sorte na Copa do Mundo 2022 realizada no Catar. Muitos
+              problemas extra-campo atrapalharam a geração de ouro da Bélgica
+              que não mostrou bom desempenho no campeonato e terminou em
+              terceito no seu grupo e não se classificou para a fase do
+              mata-mata.
+            </p>
           </div>
-          <p>
-            A seleção da Espanha chegou no Qatar para a disputa da Copa do
-            Mundo de 2022 com uma nova geração e talentos em ascensão. Mas
-            acabou deixando a competição nas oitavas de final após perder nos
-            pênaltis para o Marrocos.
-          </p>
-        </div>
-        <div>
-          <a href="https://github.com/develany" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Elany Peixoto</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
-            </div>
-          </a>
-          <a href="https://www.lance.com.br/copa-do-mundo/espanha/espanha-na-copa-do-mundo-2022-veja-os-convocados-destaques-e-agenda.html" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
-
-      <!-- INICIO DO CARD  -->
-      <div class="card" id="france">
-        <div class="card-content">
-          <div class="flag"></div>
-          <div class="card-title-content">
-            <h1 class="card-title">França</h1>
-            <span class="champion-star">
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-            </span>
+          <div>
+            <a href="https://github.com/romariobc" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Romário Costa</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a
+              href="https://ge.globo.com/futebol/selecoes/belgica/"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
           </div>
-          <p>
-            A seleção da França perdeu para a Argentina nos pênaltis e ficou
-            com o vice-campeonato da Copa do Mundo 2022. Estava no Grupo D da
-            Copa do Mundo ao lado de Dinamarca, Austrália e Tunísia.
-          </p>
         </div>
-        <div>
-          <a href="https://github.com/amariliodeoliveira/" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Amarilio de Oliveira</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
-            </div>
-          </a>
-          <a href="https://pt.wikipedia.org/wiki/Fran%C3%A7a_na_Copa_do_Mundo_FIFA_de_2022" target="_blank" class="button">Saiba mais</a>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
+        <!-- FIM DO CARD -->
 
-      <!-- INICIO DO CARD -->
-      <div class="card" id="marroco">
-        <div class="card-content">
-          <div class="flag"></div>
-          <h1 class="card-title">Marrocos</h1>
-          <p class="card-subtitle">
-            A Seleção Marroquina de Futebol representa o Marrocos nas
-            competições internacionais de futebol masculino. É controlada pela
-            Federação Real Marroquina de Futebol, também conhecida como FRMF.
-            As cores da equipe são vermelho e verde. A equipe é membro da FIFA
-            e da Confederação Africana de Futebol.
-          </p>
-        </div>
-        <div class="card-content2">
-          <a href="https://github.com/Yanfelipe9" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Yan Felipe</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+        <!-- INICIO DO CARD  -->
+        <div class="card" id="brasil">
+          <div class="card-content">
+            <div class="flag"></div>
+            <div class="card-title-content">
+              <h1 class="card-title">Brasil</h1>
+              <span class="champion-star">
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+              </span>
             </div>
-          </a>
-          <button class="saiba-mais">
-            <span class="circle" aria-hidden="true">
-              <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">
-              <a href="https://www.bbc.com/portuguese/internacional-63934943" target="_blank">Saiba Mais
-              </a>
-            </span>
-          </button>
-        </div>
-      </div>
-      <!-- FIM DO CARD -->
-
-      <!-- INICIO DO CARD -->
-      <div class="card" id="inglaterra">
-        <div class="card-content">
-          <div class="flag"></div>
-          <div class="card-title-content">
-            <h1 class="card-title">Inglaterra</h1>
-            <span class="champion-star">
-              <img class="emoji-star" src="./src/img/svg/five-pointed-star.svg" />
-            </span>
+            <p>
+              O Brasil na Copa do Mundo FIFA de 2022 manteve a situação de único
+              país a participar de todas as edições do torneio da FIFA.
+            </p>
           </div>
-          <p class="text">
-            A Seleção Inglesa de Futebol é organizada pela Football
-            Association, a instituição que administra o futebol na Inglaterra,
-            e representa a nação nas competições internacionais de futebol da
-            FIFA e da UEFA, como a Copa do Mundo e a Eurocopa.
-          </p>
+          <div>
+            <a href="https://github.com/alanopaixao" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Alan Paixão</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a href="./home/brasil.html" target="_blank" class="button"
+              >Saiba mais</a
+            >
+          </div>
         </div>
-        <div>
-          <a href="https://github.com/victorfarias32" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Victor Farias</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO DO CARD -->
+        <div class="card" id="canada">
+          <div class="card-content">
+            <div class="flag"></div>
+            <h1 class="card-title">Canadá</h1>
+            <p>
+              A Seleção Canadense chega para a Copa do Mundo 2022 após 36 anos,
+              desde 1986 que não participava. O país faz parte da América do
+              Norte, ao lado de Estados Unidos e México. Portanto, faz parte da
+              CONCACAF, que engloba não só a região Norte das Américas, como
+              também a Central, as Guianas independentes da América do Sul e o
+              Suriname.
+            </p>
+          </div>
+          <div>
+            <p class="card-credits">Feito por: Sérgio Felipe</p>
+            <a
+              href="https://www.quintoquartobr.com/copa-do-mundo/copa-do-mundo-tudo-sobre-a-selecao-canadense/"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
+          </div>
+        </div>
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO DO CARD  -->
+        <div class="card" id="espanha">
+          <div class="card-content">
+            <div class="flag"></div>
+            <div class="card-title-content">
+              <h1 class="card-title">Espanha</h1>
+              <span class="champion-star">
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+              </span>
             </div>
-          </a>
-          <a href="https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Inglesa_de_Futebol" target="_blank" class="button">Saiba mais</a>
+            <p>
+              A seleção da Espanha chegou no Qatar para a disputa da Copa do
+              Mundo de 2022 com uma nova geração e talentos em ascensão. Mas
+              acabou deixando a competição nas oitavas de final após perder nos
+              pênaltis para o Marrocos.
+            </p>
+          </div>
+          <div>
+            <a href="https://github.com/develany" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Elany Peixoto</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a
+              href="https://www.lance.com.br/copa-do-mundo/espanha/espanha-na-copa-do-mundo-2022-veja-os-convocados-destaques-e-agenda.html"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
+          </div>
         </div>
-      </div>
-      <!-- FIM DO CARD -->
+        <!-- FIM DO CARD -->
 
-      <!-- INICIO DO CARD -->
-      <div class="card" id="japao">
-        <div class="card-content">
-          <div class="flag"></div>
-          <h1 class="card-title">Japão</h1>
-          <p>
-            A seleção japonesa foi eliminada nas oitavas de final da Copa do
-            Mundo 2022, mas a atuação encheu o país de orgulho. Os "Samurais
-            Azuis" foram recebidos por uma multidão no aeroporto Haneda, o
-            mais importante do Japão.
-          </p>
-        </div>
-        <div>
-          <a href="https://github.com/wullerbarros" target="_blank">
-            <div class="card-credits-content">
-              <p class="card-credits">Feito por: Wüller Barros</p>
-              <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+        <!-- INICIO DO CARD  -->
+        <div class="card" id="france">
+          <div class="card-content">
+            <div class="flag"></div>
+            <div class="card-title-content">
+              <h1 class="card-title">França</h1>
+              <span class="champion-star">
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+              </span>
             </div>
+            <p>
+              A seleção da França perdeu para a Argentina nos pênaltis e ficou
+              com o vice-campeonato da Copa do Mundo 2022. Estava no Grupo D da
+              Copa do Mundo ao lado de Dinamarca, Austrália e Tunísia.
+            </p>
+          </div>
+          <div>
+            <a href="https://github.com/amariliodeoliveira/" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Amarilio de Oliveira</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a
+              href="https://pt.wikipedia.org/wiki/Fran%C3%A7a_na_Copa_do_Mundo_FIFA_de_2022"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
+          </div>
+        </div>
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO DO CARD -->
+        <div class="card" id="marroco">
+          <div class="card-content">
+            <div class="flag"></div>
+            <h1 class="card-title">Marrocos</h1>
+            <p class="card-subtitle">
+              A Seleção Marroquina de Futebol representa o Marrocos nas
+              competições internacionais de futebol masculino. É controlada pela
+              Federação Real Marroquina de Futebol, também conhecida como FRMF.
+              As cores da equipe são vermelho e verde. A equipe é membro da FIFA
+              e da Confederação Africana de Futebol.
+            </p>
+          </div>
+          <div class="card-content2">
+            <a href="https://github.com/Yanfelipe9" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Yan Felipe</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <button class="saiba-mais">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">
+                <a
+                  href="https://www.bbc.com/portuguese/internacional-63934943"
+                  target="_blank"
+                  >Saiba Mais
+                </a>
+              </span>
+            </button>
+          </div>
+        </div>
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO DO CARD -->
+        <div class="card" id="inglaterra">
+          <div class="card-content">
+            <div class="flag"></div>
+            <div class="card-title-content">
+              <h1 class="card-title">Inglaterra</h1>
+              <span class="champion-star">
+                <img
+                  class="emoji-star"
+                  src="./src/img/svg/five-pointed-star.svg"
+                />
+              </span>
+            </div>
+            <p class="text">
+              A Seleção Inglesa de Futebol é organizada pela Football
+              Association, a instituição que administra o futebol na Inglaterra,
+              e representa a nação nas competições internacionais de futebol da
+              FIFA e da UEFA, como a Copa do Mundo e a Eurocopa.
+            </p>
+          </div>
+          <div>
+            <a href="https://github.com/victorfarias32" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Victor Farias</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a
+              href="https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Inglesa_de_Futebol"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
+          </div>
+        </div>
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO DO CARD -->
+        <div class="card" id="japao">
+          <div class="card-content">
+            <div class="flag"></div>
+            <h1 class="card-title">Japão</h1>
+            <p>
+              A seleção japonesa foi eliminada nas oitavas de final da Copa do
+              Mundo 2022, mas a atuação encheu o país de orgulho. Os "Samurais
+              Azuis" foram recebidos por uma multidão no aeroporto Haneda, o
+              mais importante do Japão.
+            </p>
+          </div>
+          <div>
+            <a href="https://github.com/wullerbarros" target="_blank">
+              <div class="card-credits-content">
+                <p class="card-credits">Feito por: Wüller Barros</p>
+                <img src="./src/img/svg/github-svgrepo-com.svg" alt="GitHub" />
+              </div>
+            </a>
+            <a
+              href="https://www.uol.com.br/esporte/futebol/copa-do-mundo/2022/12/07/japoneses-lotam-aeroporto-para-receber-selecao-apos-eliminacao-na-copa.htm"
+              target="_blank"
+              class="button"
+              >Saiba mais</a
+            >
+          </div>
+        </div>
+        <!-- FIM DO CARD -->
+      </div>
+    </main>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="./src/img/2022_FIFA_World_Cup.svg.png" alt="" />
           </a>
-          <a href="https://www.uol.com.br/esporte/futebol/copa-do-mundo/2022/12/07/japoneses-lotam-aeroporto-para-receber-selecao-apos-eliminacao-na-copa.htm" target="_blank" class="button">Saiba mais</a>
+        </div>
+        <div class="footer-flags">
+          <h4>Acesse seu card</h4>
+          <ol class="footer-flags-item">
+            <li>
+              <a href="#argentina"
+                ><img src="./src/img/flags/flagArg.png" alt="" width="20px" />
+                Argentina</a
+              >
+            </li>
+            <li>
+              <a href="#belgica"
+                ><img src="./src/img/flags/flagBel.png" alt="" width="20px" />
+                Bélgica</a
+              >
+            </li>
+            <li>
+              <a href="#brasil"
+                ><img src="./src/img/flags/flagBra.png" alt="" width="20px" />
+                Brasil</a
+              >
+            </li>
+            <li>
+              <a href="#canada"
+                ><img src="./src/img/flags/flagCan.png" alt="" width="20px" />
+                Canadá</a
+              >
+            </li>
+            <li>
+              <a href="#espanha"
+                ><img src="./src/img/flags/flagEsp.png" alt="" width="20px" />
+                Espanha</a
+              >
+            </li>
+            <li>
+              <a href="#france"
+                ><img src="./src/img/flags/flagFra.jpg" alt="" width="20px" />
+                França</a
+              >
+            </li>
+            <li>
+              <a href="#marroco"
+                ><img src="./src/img/flags/flagMar.jpg" alt="" width="20px" />
+                Marrocos</a
+              >
+            </li>
+            <li>
+              <a href="#inglaterra"
+                ><img src="./src/img/flags/flagIng.png" alt="" width="20px" />
+                Inglaterra</a
+              >
+            </li>
+            <li>
+              <a href="#japao"
+                ><img src="./src/img/flags/flagJap.png" alt="" width="20px" />
+                Japão</a
+              >
+            </li>
+          </ol>
+        </div>
+        <div class="footer-links">
+          <h4>Mapa do site</h4>
+          <a href="incex.html" target="_blank"> home </a>
         </div>
       </div>
-      <!-- FIM DO CARD -->
-    </div>
-  </main>
-
-  <footer class="footer-bg">
-    <div class="footer-container">
-      <div class="footer-area-one">
-        <img src="./src/img/2022_FIFA_World_Cup.svg.png" alt="">
+      <div class="footer-copyright">
+        <p>© <span id="date">2021</span> Todos os direitos reservados</p>
       </div>
-      <div class="footer-area-two">
-        <h4>Acesse seu card</h4>
-        <ol class="footer-itens">
-          <li><a href="#argentina"><img src="./src/img/flags/flagArg.png" alt="" width="20px"> Argentina</a></li>
-          <li><a href="#belgica"><img src="./src/img/flags/flagBel.png" alt="" width="20px"> Bélgica</a></li>
-          <li><a href="#brasil"><img src="./src/img/flags/flagBra.png" alt="" width="20px"> Brasil</a></li>
-          <li><a href="#canada"><img src="./src/img/flags/flagCan.png" alt="" width="20px"> Canadá</a></li>
-          <li><a href="#espanha"><img src="./src/img/flags/flagEsp.png" alt="" width="20px"> Espanha</a></li>
-          <li><a href="#france"><img src="./src/img/flags/flagFra.jpg" alt="" width="20px"> França</a></li>
-          <li><a href="#marroco"><img src="./src/img/flags/flagMar.jpg" alt="" width="20px"> Marrocos</a></li>
-          <li><a href="#inglaterra"><img src="./src/img/flags/flagIng.png" alt="" width="20px"> Inglaterra</a></li>
-          <li><a href="#japao"><img src="./src/img/flags/flagJap.png" alt="" width="20px"> Japão</a></li>
-        </ol>
-      </div>
-      <div class="footer-area-three">
-        <h4>Contribuidores</h4>
-        <a href="https://github.com/luannpl" target="_blank">
-          <p>Paulo Luan</p>
-        </a>
-
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <p>© <span id="date">2021</span> Todos os direitos reservados</p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
