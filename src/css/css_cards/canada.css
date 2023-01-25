@@ -2,7 +2,7 @@
   background-color: rgb(250, 91, 91);
   color: rgb(248, 248, 248);
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   border: none;
 }
 
@@ -23,8 +23,13 @@
   border: 1px solid red;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
 }
 
 #canada .card-title {
   border-bottom: 2px solid red;
+}
+#canada .card-content:hover > .card-title{
+  color: rgba(255, 0, 0, 0.849);
+  transition: all 0.3s ease;
 }
