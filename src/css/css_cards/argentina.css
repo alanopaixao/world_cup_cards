@@ -28,13 +28,13 @@
 }
 
 #argentina .flag {
-  background-image: url("../../img/flags/flagArg.png");
+  background-image: url("../../img/flags/flagArg.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #argentina .flag:hover {
-  background-image: url("../../img/selecao/selecaoArg.jpeg");
+  background-image: url("../../img/selecao/selecaoArg.jpg");
 }
 
 #argentina .card-title-content {

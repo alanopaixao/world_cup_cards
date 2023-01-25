@@ -1,57 +1,55 @@
 #espanha {
-    background-image: linear-gradient( #ffc4003b 50%, #c60b1e25);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
-    border: solid 1px #c60b1e6c;
-
-}  
+  background-image: linear-gradient(#ffc4003b 50%, #c60b1e25);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+  border: solid 1px #c60b1e6c;
+}
 
 #espanha .emoji-star {
   font-size: 15px;
 }
 
-  #espanha .button {
-    background-color: rgb(221, 11, 11);
-    color: yellow;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    transition: 0.3s all;
-  }
-  #espanha .flag {
-    background-image: url("../../img/flags/flagEsp.png");
-    background-position: center;
-    background-size: cover;
-  }
-  
-  #espanha .button:hover {
-    background-color: yellow;
-    color: rgb(221, 11, 11);
-    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
-  }
-  
-  #espanha .card-title-content  {
-    border-bottom: 2px solid rgb(226, 6, 6);
-  }
-  
-  #espanha .card-credits {
-    font-weight: 700;
-    color: rgb(224, 12, 4);
-  }
-  
-  #espanha .card-credits {
-    padding-bottom: 0;
-  }
-  
-  #espanha .card-credits-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 20px;
-  }
-  
-  #espanha .card-credits-content img {
-    height: 20px;
-    padding-left: 10px;
-  }
+#espanha .button {
+  background-color: rgb(221, 11, 11);
+  color: yellow;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  transition: 0.3s all;
+}
+#espanha .flag {
+  background-image: url("../../img/flags/flagEsp.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
+#espanha .button:hover {
+  background-color: yellow;
+  color: rgb(221, 11, 11);
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+#espanha .card-title-content {
+  border-bottom: 2px solid rgb(226, 6, 6);
+}
+
+#espanha .card-credits {
+  font-weight: 700;
+  color: rgb(224, 12, 4);
+}
+
+#espanha .card-credits {
+  padding-bottom: 0;
+}
+
+#espanha .card-credits-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+#espanha .card-credits-content img {
+  height: 20px;
+  padding-left: 10px;
+}
