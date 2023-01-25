@@ -20,14 +20,14 @@
   transition: 0.3s all;
 }
 #brasil .flag {
-  background-image: url("../../img/flags/flagBra.png");
+  background-image: url("../../img/flags/flagBra.jpg");
   background-position: center;
   background-size: cover;
   transition: all 0.05s;
 }
 
 #brasil .flag:hover {
-  background-image: url(../../img/selecao/selecaoBra.jpg);
+  background-image: url("../../img/selecao/selecaoBra.jpg");
 }
 
 #brasil .card-title-content {

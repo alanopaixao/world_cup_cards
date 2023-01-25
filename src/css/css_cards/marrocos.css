@@ -14,8 +14,8 @@
   background-size: cover;
 }
 
-#marroco .flag:hover{
-  background-image: url("../../img/selecao/selecaoMarr.jpeg");
+#marroco .flag:hover {
+  background-image: url("../../img/selecao/selecaoMarr.jpg");
 }
 
 #marroco .card-content,

@@ -1,36 +1,31 @@
-
 #japao .flag {
-    background-image: url("../../img/flags/flagJap.png");
-    background-position: center;
-    background-size: cover;
-    transition: all 0.05s;
-    border: 1px solid #ddd;
-  }
-  
-  #japao .flag:hover {
-    background-image: url(../../img/selecao/selecaoJap.jpg);
-  }
+  background-image: url("../../img/flags/flagJap.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 0.05s;
+  border: 1px solid #ddd;
+}
 
-
+#japao .flag:hover {
+  background-image: url("../../img/selecao/selecaoJap.jpg");
+}
 
 #japao .card-credits-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-   padding-bottom: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
 
-  #japao .card-credits{
-    padding-bottom: 0;
-  }
-
+#japao .card-credits {
+  padding-bottom: 0;
+}
 
 #japao .card-credits-content img {
-    height: 20px;
-    padding-left: 10px;
-  }
-  
+  height: 20px;
+  padding-left: 10px;
+}
+
 #japao .card-title {
-    border-bottom: 2px solid red;
-  }
-      
+  border-bottom: 2px solid red;
+}

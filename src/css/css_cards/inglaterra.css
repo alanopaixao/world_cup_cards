@@ -13,7 +13,7 @@
   transition: 0.3s all;
 }
 #inglaterra .flag {
-  background-image: url("../../img/flags/flagIng.png");
+  background-image: url("../../img/flags/flagIng.jpg");
   background-position: center;
   background-size: cover;
   transition: all 0.1s ease;
