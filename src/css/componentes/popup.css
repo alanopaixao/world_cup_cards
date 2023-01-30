@@ -13,6 +13,23 @@
   transition: ease;
 }
 
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #ff7f7f;
+  transition: ease 0.8s;
+}
+
+.btn-close:hover {
+  fill: red;
+}
+.transparent {
+  background-color: transparent;
+  transition: ease 0.8s;
+}
+
 .popup {
   background-color: #ddd;
   text-align: center;
@@ -21,24 +38,7 @@
   width: 500px;
   height: max-content;
   position: relative;
-  animation: slide-down ease 2s;
-}
-
-.btn-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  color: #ff7f7f;
-  transition: ease-in 500ms;
-}
-
-.btn-close:hover {
-  fill: red;
-}
-.transparent {
-  background-color: transparent;
-  transition: ease-in 500ms;
+  animation: slide-down ease 0.8s;
 }
 
 @keyframes slide-down {
@@ -52,16 +52,7 @@
 }
 
 .slide-up {
-  animation: slide-up ease 1s;
-}
-
-@keyframes slide-up {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-200px);
-  }
+  animation: slide-up ease 1.3s;
 }
 
 @keyframes slide-up {
