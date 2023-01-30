@@ -3,14 +3,18 @@ const date = document.querySelector("#date");
 date.innerHTML = new Date().getFullYear();
 
 // slide up / down
-const btnClose = document.querySelector("#btn-close");
-const popupBg = document.querySelector("#popup-bg");
-const popup = document.querySelector("#popup");
+const popupBg = document.querySelector("#popup-bg"),
+  popup = document.querySelector("#popup"),
+  btnClose = document.querySelector("#btn-close");
 
-btnClose.addEventListener("click", () => {
+btnClose.addEventListener("click", closeModal);
+popupBg.addEventListener("click", closeModal);
+
+function closeModal(e) {
+  e.preventDefault();
   popup.classList.add("slide-up");
   popupBg.classList.add("transparent");
-  setInterval(() => {
+  setTimeout(() => {
     popupBg.style.display = "none";
-  }, 500);
-});
+  }, 600);
+}
