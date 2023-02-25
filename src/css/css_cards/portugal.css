@@ -1,0 +1,77 @@
+#portugal {
+    position: relative;
+    transition: 0.7s all;
+    background-image: linear-gradient(rgb(193, 215, 215) 50%, rgb(185, 185, 217));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+    border: solid 1px rgb(193, 215, 215);
+  }
+  #portugal:hover {
+    transform: scale(1.02);
+    box-shadow: inset 0 0px 0px 3px rgb(0,102,0);
+  }
+  
+  #portugal .button {
+    background-color: rgb(0,102,0);
+    color: rgb(2, 2, 49);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.9s all;
+  }
+  
+  #portugal .flag {
+    background-image: url("../../img/flags/flagPort.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: all 0.9s ease;
+  }
+  
+  #portugal .flag:hover {
+    background-image: url("../../img/selecao/selecaoPort.jpg");
+    transition: all 0.9s ease;
+    transform: scale(1.1,1.1);
+  }
+  
+  #portugal .card-title-content {
+    border-bottom: 2px solid rgb(255, 0, 0);
+  }
+  #portugal .card-credits {
+    font-weight: 700;
+    color: rgb(0, 51, 153);
+  }
+  #portugal .card-title {
+    color: rgb(2, 2, 49);
+  }
+  #portugal .card-title-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #portugal .card-content p {
+    color: rgb(2, 2, 49);
+    text-align: justify;
+  }
+  #portugal .button:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255,255,255);
+    border: none;
+    font-weight: 700;
+    transition: 0.9s all;
+  }
+  
+  #portugal .card-credits {
+    padding-bottom: 0;
+  }
+  #portugal .card-credits-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+  
+  #portugal .card-credits-content img {
+    height: 20px;
+    padding-left: 10px;
+  }
