@@ -20,19 +20,66 @@
     transition: 0.9s all;
   }
   
-  #portugal .flag {
+  /* #portugal .flag {
     background-image: url("../../img/flags/flagPort.jpg");
     background-position: center;
     background-size: cover;
     transition: all 0.9s ease;
-  }
+    
+  } */
   
-  #portugal .flag:hover {
+  
+  .flag{
+    height: 150px; width: 260px;
+    position: relative;
+    perspective: 1000px;
+    
+
+}
+
+  #portugal .front, .back{
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+    border-radius: 6px;
+    
+}
+
+#portugal .front {
+    height: 150px;
+    width: 260px;
+    background-image: url("../../img/flags/flagPort.jpg");
+    transform: rotateY(0deg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#portugal .back{
+    height: 150px;
+    width: 260px;
+    background-image: url("../../img/selecao/selecaoPort.jpg");
+    transform: rotateY(180deg);
+    background-position: center;
+    background-size: cover;
+}
+
+#portugal .flag:hover .front{
+    transform: rotateY(-180deg);
+}
+
+#portugal .flag:hover .back{
+    transform: rotateY(0deg);
+}
+
+  /* #portugal .flag:hover {
     background-image: url("../../img/selecao/selecaoPort.jpg");
     transition: all 0.9s ease;
     transform: scale(1.1,1.1);
-  }
+  } */
   
+
   #portugal .card-title-content {
     border-bottom: 2px solid rgb(255, 0, 0);
   }
